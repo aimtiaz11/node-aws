@@ -1,6 +1,6 @@
 FROM node:7.5.0
 
-ENV angular_cli_version=1.2.6
+ENV angular_cli_version=1.3.1
 
 RUN apt-get update && apt-get install -y jq python-pip zip unzip python-dev curl
 
